@@ -13,9 +13,9 @@
 - Copy the /nrf52840-mdk-usb-dongle/firmware/ble_sniffer/nrf_sniffer_for_bluetooth_le_v4.1.1.uf2 to the drive "UF2BOOT" that should show up now
 - Replug the dongle
 - Install wireshark
-- Head to /nrf52840-mdk-usb-dongle/ble_sniffer/extcap
+- Head to /nrf52840-mdk-usb-dongle/tools/ble_sniffer/extcap
 - Install the python requirements ``python3 -m pip install -r requirements.txt``
 - Open wireshark and go to Help > About Wireshark > Folders and copy the "Personal Extcap path"
-- Copy the content of /nrf52840-mdk-usb-dongle/ble_sniffer/extcap to this path
+- Copy the content of /nrf52840-mdk-usb-dongle/tools/ble_sniffer/extcap to this path
 - Click Capture > Refresh Interfaces in wireshark
 - Enable View > Interface Toolbars > nRF Sniffer for Bluetooth LE
