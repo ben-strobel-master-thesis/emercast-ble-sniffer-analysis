@@ -29,7 +29,7 @@ Use the following filter strings to filter for specific packets related to the E
 - To filter for BLE connect requests: ```btle.advertising_header.pdu_type == 0x5```
 - To filter for BLE read requests: ```btatt.opcode.method == 0x08```
 - To filter for BLE write requests: ```btatt.opcode.method == 0x12```
-- To filter for GATT requests regarding a specific characeristic: ```SEE BELOW FOR SELECTION OF VALUES```
+- To filter for GATT requests regarding a specific characeristic: ```btatt.uuid128 == SEE BELOW FOR SELECTION OF VALUES```
 
 These are the static GATT characeristics used by the Emercast prototype:
 - GET_BROADCAST_MESSAGE_SYSTEM_CHAIN_HASH ```7323fe0e-5691-4090-0000-48b1782de633```
