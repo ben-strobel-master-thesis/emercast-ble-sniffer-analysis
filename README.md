@@ -24,6 +24,8 @@ These durations were used in the simulator to approximate the behavior of the Em
 - Click Capture > Refresh Interfaces in wireshark
 - Enable View > Interface Toolbars > nRF Sniffer for Bluetooth LE
 
+## Packet filters
+
 Use the following filter strings to filter for specific packets related to the Emercast Prototype:
 - To filter for the Emercast advertisement packets: ```btcommon.eir_ad.entry.uuid_16 == 0xb571```
 - To filter for BLE connect requests: ```btle.advertising_header.pdu_type == 0x5```
