@@ -5,11 +5,11 @@ This approach was used to obtain the average durations of the phases of the sync
 These durations were used in the simulator to approximate the behavior of the Emercast prototype as close as possible.
 
 ## Prerequisites
-- nRF52840 MDK USB Dongle (check the "where to buy" section on https://github.com/makerdiary/nrf52840-mdk-usb-dongle, we got ours from makerdiary/amazon)
+- nRF52840 MDK USB Dongle (check the "where to buy" section on [this website](https://github.com/makerdiary/nrf52840-mdk-usb-dongle), we got ours from makerdiary/amazon)
 - A windows/linux/macos machine
 
 ## Setup
-- Have a look at this guide OR follow the following steps: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ble-sniffer/installation/#installing-the-nrf-sniffer-capture-tool
+Follow the steps laid out in this setup section or follow the steps on this [website](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ble-sniffer/installation/#installing-the-nrf-sniffer-capture-tool)
 - Clone this repository
 - Take the nRF52840 dongle and hold the reset button
 - Plug the dongle into your machine
